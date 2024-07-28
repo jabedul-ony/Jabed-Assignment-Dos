@@ -38,7 +38,7 @@
 .bg-1{
     padding-left: 190px;
     padding-right: 140px;
-    background-image: linear-gradient(60deg, #111111 100%, #777777 0%);
+    background-image: linear-gradient(180deg, #111111 100%, #777777 0%);
     width: 100%;
     height: 715px;
 }
@@ -118,12 +118,17 @@ text-align: left;
    
     
 }
+/* .honu{
+    position: absolute; */
+
+
 .video-tutorials{
     width: 192px;
     height: 97px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
     color: white;
     position: relative;
     bottom: 200px;
@@ -237,5 +242,21 @@ text-align: center;
          .banner{
             display: grid;
             grid-template-columns: repeat(1, 1fr);
-         }             
+         }
+         .bg-1{
+max-width: 393px;
+height: auto;
+         }
+         .nav-links{
+            
+            display: none;
+         }
+         .video-tutorials{
+            position: relative;
+           right: 300px;
+         }
+         .video-workout{
+            position:relative;
+            bottom: 400px;
+         }
 }
