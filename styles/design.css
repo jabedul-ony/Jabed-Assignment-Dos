@@ -7,6 +7,8 @@
     font-style: normal;
     background-color: black;
 }
+
+
 /* nav style */
 .niche{
     font-size: 36px;
@@ -38,7 +40,7 @@
 .bg-1{
     padding-left: 190px;
     padding-right: 140px;
-    background-image: linear-gradient(180deg, #111111 100%, #777777 0%);
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
     width: 100%;
     height: 715px;
 }
@@ -102,6 +104,8 @@ text-align: left;
 }
 
 
+
+
 .video-workout{
     width: 192px;
     height: 97px;
@@ -109,6 +113,7 @@ text-align: left;
     border-radius: 12px;
     background: rgba(255, 255, 255, 0.1);
     color: white;
+    backdrop-filter: blur(20px);
     position: relative;
     bottom: 400px;
     left: 400px;
@@ -175,7 +180,7 @@ text-align: left;
 main{
     max-width: 1440px;
     margin: auto;
-    display: none;
+    
 }
 .center{
     text-align: center;
@@ -193,7 +198,7 @@ main{
 .objectives{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 40px;
+    gap: 30px;
     margin-top: 57px;
     margin-left: 190px;
 }
@@ -224,13 +229,54 @@ main{
     
 }
 .piku{
-text-align: center;
+align-items: center;
+}
+/* section2 */
+.section-name2{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    
 }
 
+.run{
+    position: static;
+    height: 371px;
+    width: 80%;
+    background-color: rgb(34, 34, 34);
+    border-radius: 18px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 190px;
+    margin-left: 190px;
+    
+
+    
+    
+   
+}
+.extra{
+    margin-left: 56px;
+    margin-bottom: 30px;
+    text-align: left;
 
 
-
-
+}
+.img3{
+    width: 366px;
+    height: 312px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 30px;
+}
+.textpic{
+    display: flex;
+    justify-content: space-between;
+    gap: 165px;
+}
+.training{
+    margin-left: 190px;
+}
 
 
 
