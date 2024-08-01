@@ -1,5 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.cdnfonts.com/css/miama?styles=170364,627');
+
+.miama-font{
+    font-family: "Miama", sans-serif;
+    font-size: 120px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 .inter-font{
     font-family: "inter", sans-serif;
     font-optical-sizing: auto;
@@ -7,7 +13,6 @@
     font-style: normal;
     background-color: black;
 }
-
 
 /* nav style */
 .niche{
@@ -40,7 +45,7 @@
 .bg-1{
     padding-left: 190px;
     padding-right: 140px;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background: linear-gradient(180.00deg, rgb(17, 17, 17)0%,rgba(119, 119, 119, 0) 100%);
     width: 100%;
     height: 715px;
 }
@@ -177,14 +182,16 @@ text-align: left;
 
 }
 /* main */
-main{
-    max-width: 1440px;
-    margin: auto;
+
     
-}
+
 .center{
     text-align: center;
     /* margin: auto; */
+}
+.change{
+    margin-right: 390px;
+    margin-left: 390px;
 }
 .section-name{
     font-size: 48px;
@@ -196,11 +203,11 @@ main{
     margin-top: 100px;
 }
 .objectives{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 30px; */
     margin-top: 57px;
-    margin-left: 190px;
+    /* margin-left: 80px; */
 }
 .pic-head{
     font-size: 18px;
@@ -218,12 +225,14 @@ main{
 }
 .des{
     margin-top: 2.23rem;
-    position: relative;
-    right: 55px;
+    /* position: relative;
+    right: 55px; */
 }
 .img2{
     height: 180px;
     width: 180px;
+    position: relative;
+    left:  25px;
     border-radius: 50%;
     overflow: hidden;
     
@@ -242,13 +251,13 @@ align-items: center;
 .run{
     position: static;
     height: 371px;
-    width: 80%;
+    width: 1240px;
     background-color: rgb(34, 34, 34);
     border-radius: 18px;
     margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 190px;
-    margin-left: 190px;
+    margin-left: 390px;
     
 
     
@@ -275,10 +284,53 @@ align-items: center;
     gap: 165px;
 }
 .training{
-    margin-left: 190px;
+    margin-left: 390px;
+    margin-right: 190px;
+    width: 80%;
+    height: 581px;
+}
+/* img section */
+.vrti{
+    height: 403px;
+    width: 1060px;
+    margin-top: 58px;
 }
 
+.row1{
 
+    display: flex;
+    width: 1060px;
+    height: 201.5px;
+
+    
+}
+.overlay1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+#no1{
+
+    width: 323px;
+    height: 215px;
+    object-fit: cover;
+    mix-blend-mode: lighten;
+    opacity: 50%;
+    background: rgba(6, 255, 210, 1);
+    /* left: -16px; */
+}
+#no2{
+    
+    width: 539px;
+    height: 215px;
+    object-fit: cover;
+}
+#no3{
+    width: 280px;
+    height: 215px;
+    object-fit: cover;
+
+}
 
 
 
