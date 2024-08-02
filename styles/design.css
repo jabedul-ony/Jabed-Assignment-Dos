@@ -331,6 +331,136 @@ align-items: center;
     object-fit: cover;
 
 }
+.text-descriptionbmi{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+    margin-top: 0px;
+}
+.bmi{
+    margin-left: 520px;
+
+}
+.section-namebmi{
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    
+
+}
+ td, th{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 15px;
+
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+    margin: 5px;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+.cap{
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    /* margin-top: 200px; */
+}
+th{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.chart{
+    margin-left: 390px;
+    /* margin-top: 200px; */
+}
+.chartncalc{
+    background-color: rgba(34, 34, 34, 1);
+    width: 100%;
+    height: 487px;
+}
+.table{
+    display: flex;
+    justify-content: space-between;
+}
+.calculator{
+    margin-right: 390px;
+}
+.inp > input{
+    /* display: flex;
+    flex-direction: column; */
+    height: 48px;
+    width: 282px;
+    padding: 10px;
+    border: none;
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    gap: 20px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+
+}
+.inp2 > input{
+    height: 48px;
+    width: 282px;
+    padding: 10px;
+    border: none;
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    gap: 20px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+.sex{
+    height: 70px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: grey;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+}
+.activity{
+    height: 70px;
+    width: 610px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: grey;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 34px;
+}
+.cal{
+    margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
