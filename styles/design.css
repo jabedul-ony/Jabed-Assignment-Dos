@@ -582,6 +582,9 @@ th{
             display: flex;
             
         }
+        body{
+            overflow-x: hidden;
+        }
         .btn-pro{
             font-size: 18px;
             font-weight: 300;
@@ -731,6 +734,22 @@ th{
         margin-left: 20px;
       
     }
+    .bg-1{
+        border: 2px solid white;
+        overflow-x: hidden;
+    }
+    .calc{
+        border: 2px solid red;
+        overflow-x: hidden;
+    }
+    .run{
+        border: 2px solid blue;
+        overflow-x: hidden;
+    }
+    .change{
+        border: 2px solid purple;
+        overflow-x: hidden;
+    }
 
     .calculator{
         margin-right: 0px;
@@ -787,6 +806,11 @@ th{
         padding: 10px;
         margin-bottom: 34px;
     }
+    .met{
+        border: 2px solid white;
+        align-items: center;
+    }
+    
 
     .btn-pro2{
         font-size: 18px;
@@ -804,15 +828,15 @@ th{
         grid-column-gap: 10px;
         height: 1188px;
         width: 353px;
-        margin-left: 30px;
+        margin-left: 0px;
         /* margin-right: 10px; */
         border-radius: 18px;
-        padding: 10px;
+        /* padding: 10px; */
         margin-top: 50px;
         
     }
     .mem-name{
-        font-size: 15px;
+        font-size: 20px;
         font-weight: bold;
         color: white;
         position: relative;
