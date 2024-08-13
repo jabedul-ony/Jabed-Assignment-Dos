@@ -742,10 +742,7 @@ th{
         
         overflow-x: hidden;
     }
-    .run{
-        
-        overflow-x: hidden;
-    }
+    
     .change{
         
         overflow-x: hidden;
@@ -806,10 +803,7 @@ th{
         padding: 10px;
         margin-bottom: 34px;
     }
-    .met{
-        border: 2px solid white;
-        align-items: center;
-    }
+    
     
 
     .btn-pro2{
