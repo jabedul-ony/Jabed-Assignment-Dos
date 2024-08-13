@@ -592,6 +592,7 @@ th{
             border-radius: 39px;
             padding: 5px 20px;
             color: white;
+            border: none;
         }
         .btn-1{
             font-size: 18px;
@@ -602,6 +603,7 @@ th{
             background-color: black;
             border: 1px solid rgba(255, 255, 255, 1);
             margin-left: 14px;
+            border: none;
         
         }
         .hide{
@@ -677,7 +679,7 @@ th{
     
 }
 .run{
-    position: static;
+    position: relative;
     height: 650px;
     width: 333px;
     background-color: rgb(34, 34, 34);
@@ -704,6 +706,7 @@ th{
 }
 .btn-pro1{
     padding: 15px 100px;
+    border: none;
 }
     
     .img3{
@@ -742,9 +745,15 @@ th{
         
         overflow-x: hidden;
     }
+    .run{
+        overflow-x: hidden;
+    }
     
     .change{
         
+        overflow-x: hidden;
+    }
+    .met{
         overflow-x: hidden;
     }
 
@@ -813,6 +822,7 @@ th{
         border-radius: 39px;
         padding: 16px 45px;
         color: white;
+        border: none;
     }
     .team{
         background-color: rgba(255, 255, 255, 0.1);
