@@ -735,19 +735,19 @@ th{
       
     }
     .bg-1{
-        border: 2px solid white;
+       
         overflow-x: hidden;
     }
     .calc{
-        border: 2px solid red;
+        
         overflow-x: hidden;
     }
     .run{
-        border: 2px solid blue;
+        
         overflow-x: hidden;
     }
     .change{
-        border: 2px solid purple;
+        
         overflow-x: hidden;
     }
 
@@ -758,8 +758,8 @@ th{
     .inp2 > input{
         height: 35px;
         width: 142px;
-        display: flex;
-        justify-content: space-around;
+        /* display: flex;
+        justify-content: space-around; */
         padding: 10px;
         border: none;
         font-size: 18px;
@@ -774,8 +774,8 @@ th{
         flex-direction: column; */
         height: 35px;
         width: 142px;
-        display: flex;
-        justify-content: space-around;
+        /* display: flex;
+        justify-content: space-around; */
         padding: 10px;
         border: none;
         font-size: 18px;
