@@ -45,7 +45,8 @@
 }
 #Home{
     background-color: #E6533C;
-    border-radius: 50%;
+    border-radius: 30px;
+    padding: 10px 30px;
 }
 .navbar, .banner{
     max-width: 1440px;
@@ -939,43 +940,19 @@ hr{
     justify-content: space-between;
     flex-direction: column;
 }
-    hr{
+hr{
         border: 1px solid  rgba(255, 255, 255, 0.1);
         margin-left: 20px;
         margin-right: 20px;
-    }
-    .right{
+}
+.right{
         font-size: 20px;
         font-weight: 300;
         color: rgba(255, 255, 255, 0.5);
         margin-top: 20px;
         margin-bottom: 20px;
         margin-left: 40px;
-    }
-    /* .rights{
-        margin-bottom: 20px;
-    } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+    
 
 }
